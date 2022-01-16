@@ -26,12 +26,12 @@ LIMIT 1
 # Join products table with OrderDetails table with Orders table with customers table
 # Then using where clause filter country germany and order by quantity_orders
 
-SELECT p.ProductName, SUM(od.Quantity) as quantity_orders
+SELECT p.ProductName, SUM(OrderDetails.Quantity) as quantity_orders
 FROM Products as p
-LEFT JOIN OrderDetails as od
-ON p.ProductID = od.ProductID
+LEFT JOIN OrderDetails
+ON p.ProductID = OrderDetails.ProductID
 LEFT JOIN Orders as o
-ON od.OrderID = o.OrderID
+ON OrderDetails.OrderID = o.OrderID
 LEFT JOIN Customers as c
 ON o.CustomerID = c.CustomerID
 WHERE c.Country = "Germany"
