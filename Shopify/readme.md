@@ -6,7 +6,7 @@ On Shopify, we have exactly 100 sneaker shops, and each of these shops sells onl
 
 - Using the average order value (AOV), the calculated value was  $3145.13. This is incorrect because the formula failed to account for orders that can contain multiple items.
 
-- Further, the dataset has outliers that I have identified and removed (Shop 42, 78). 
+- Further, the dataset has outliers that I have identified and I have removed the shops assocaited with them(Shop 42, 78). 
 
 - Why did I remove shop 78 - Store 78 is selling sneakers at $25,725. I guess they sell diamond-studded sneakers, so let's drop this store as it is an outlier.
 
