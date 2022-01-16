@@ -23,7 +23,7 @@ LIMIT 1
 
 
 # Question -3: What product was ordered the most by customers in Germany?
-# Join products talke with OrderDetails table with Orders table with customers table
+# Join products table with OrderDetails table with Orders table with customers table
 # Then using where clause filter country germany and order by quantity_orders
 
 SELECT p.ProductName, SUM(od.Quantity) as quantity_orders
