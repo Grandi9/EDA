@@ -10,8 +10,7 @@ Further, the dataset has outliers that I have identified and removed (Shop 42, 7
 
 Why did I remove shop 78 - Store 78 is selling sneakers at $25,725. I guess they sell diamond-studded sneakers, so let's drop this store as it is an outlier.
 
-Why did I remove Shop 42  - One customer made several trasnactions 
-
+Why did I remove Shop 42  - One customer (user_id = 607) bought 34000 sneakers at once, I believe this is a fraudulent transaction, hence I am removing store 42 from our data.
 
 ### What metric would you report for this dataset?
 
@@ -19,4 +18,4 @@ price_per_sneaker = order_amount / total_items
 
 ### What is its value?
 
-The value is $150.4
+The value is $300.1
