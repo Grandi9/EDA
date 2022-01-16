@@ -28,7 +28,7 @@ For this question you’ll need to use SQL. Follow this link to access the data 
  - 54
 
 ## What is the last name of the employee with the most orders?
- - Peacock
+ - Peacock, 40 orders
 
 ## What product was ordered the most by customers in Germany?
  - Boston Crab Meat, Ordered 160 times.
